@@ -1,0 +1,7 @@
+input_root: /home/arka/Desktop/Nancy/Input
+output_root: /home/arka/Desktop/Nancy/Output
+threads: auto          # or an int, e.g. 8
+diameter: 30
+flow_threshold: 0.9
+cellprob_threshold: -9
+file_identifier: d3.TIF   # substring to select files (case-insensitive)
