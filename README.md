@@ -13,7 +13,7 @@ Everything runs inside a **Singularity/Apptainer container**, so students only n
 
 * Run one Singularity command
 
-* No coding required. ✅
+* No coding required.
 
 ---
 
