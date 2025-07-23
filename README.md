@@ -1,8 +1,8 @@
-# Cellpose Single-Channel Pipeline (Denoise ➜ Segment ➜ Quantify)
+# Cellpose Single-Channel Pipeline (Upsample➜ Segment ➜ Quantify)
 
 This project provides a **one-command workflow** to:
 
-1. **Denoise** single‑channel TIFF images with `denoise_cyto3`
+1. **Upsample** single‑channel TIFF images with `upsample_cyto3`
 2. **Segment** them with the `cyto2` Cellpose model
 3. **Quantify** basic object metrics (area, perimeter, circularity, centroid, count)
 4. **Save** denoised images, masks, and a CSV summary
@@ -125,7 +125,7 @@ singularity run --nv -B /path/on/hpc/project:/work /path/to/cellpose.sif /work/c
 If your HPC won’t let you build, do this on a machine with Singularity/Apptainer and root:
 
 ```bash
-singularity build cellpose.sif Singularity.cellpose
+singularity build cellpose.sif cellpose.def
 # or apptainer build cellpose.sif Singularity.cellpose
 ```
 
