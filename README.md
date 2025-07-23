@@ -11,10 +11,9 @@ Everything runs inside a **Singularity/Apptainer container**, so students only n
 
 * Edit a small YAML config fileBelow is a ready‑to‑drop **`README.md`** for your repo.
 
----
 * Run one Singularity command
 
-No coding required. ✅
+* No coding required. ✅
 
 ---
 
