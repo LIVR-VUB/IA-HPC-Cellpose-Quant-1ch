@@ -233,6 +233,24 @@ A: Set `restore_type` to something neutral or bypass the denoise step with a fla
 **Q: My files don’t end in `.tif/.tiff`**
 A: Add more extensions in `collect_images`.
 
+**Q: How to create the cellpose quantification environment**
+A: You can create conda env by the following commands
+   *Step 1:* Create the conda virtual env
+   ```python
+   conda create --name cellpose python=3.10
+   ```
+   *Step 2:* Install `cellpose-3`:
+   ```python
+   pip install cellpose==3.1.1.2
+   ```
+   *Step 3:* Install other dependencies:
+   ```python
+   conda install -c conda-forge pyyaml
+   conda install -c conda-forge pandas scikit-image tqdm
+   ```
+And you have successfully installed dependencies!!!!
+   
+
 ---
 
 ### Enjoy & Good luck!
