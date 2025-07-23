@@ -57,8 +57,8 @@ project/
 1. **Clone or download** this repo:
 
    ```bash
-   git clone https://github.com/your-org/your-repo.git
-   cd your-repo
+   git clone https://github.com/LIVR-VUB/IA-Cellpose-Quant-1ch.git
+   cd IA-Cellpose-Quant-1ch
    ```
 
 2. **Make sure you have the container** (built or downloaded) — `cellpose.sif`.
