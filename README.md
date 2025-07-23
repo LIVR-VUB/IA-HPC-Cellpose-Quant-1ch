@@ -40,7 +40,7 @@ A minimal setup on the HPC (or your local machine) should look like:
 ```
 project/
 ├─ cellpose_auto_single.py      # main pipeline script (already in container)
-├─ Singularity.cellpose         # definition file (for building container)
+├─ cellpose.def         # definition file (for building container)
 ├─ cellpose.sif                 # built container (optional to store here)
 ├─ config.yml                   # YOU edit this
 ├─ images/                      # raw .tif/.tiff files
