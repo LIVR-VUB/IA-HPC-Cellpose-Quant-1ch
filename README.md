@@ -15,6 +15,8 @@ Everything runs inside a **Singularity/Apptainer container**, so students only n
 
 * No coding required.
 
+![Pipeline overview](<img width="1536" height="1024" alt="ChatGPT Image Jul 23, 2025, 11_37_03 PM" src="https://github.com/user-attachments/assets/a965cc99-bc8b-4192-bfee-91775f1410b4" />)
+
 
 ## Contents
 
