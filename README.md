@@ -15,7 +15,7 @@ Everything runs inside a **Singularity/Apptainer container**, so students only n
 
 * No coding required.
 
-![Pipeline overview](<img width="1536" height="1024" alt="ChatGPT Image Jul 23, 2025, 11_37_03 PM" src="https://github.com/user-attachments/assets/a965cc99-bc8b-4192-bfee-91775f1410b4" />)
+![Pipeline overview](https://github.com/LIVR-VUB/IA-Cellpose-Quant-1ch/blob/main/misc/ChatGPT%20Image%20Jul%2023%2C%202025%2C%2011_37_03%20PM.png)
 
 
 ## Contents
