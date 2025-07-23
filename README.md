@@ -15,7 +15,6 @@ Everything runs inside a **Singularity/Apptainer container**, so students only n
 
 * No coding required.
 
----
 
 ## Contents
 
