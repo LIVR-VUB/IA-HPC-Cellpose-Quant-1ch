@@ -1,0 +1,32 @@
+Bootstrap: docker
+From: mambaorg/micromamba:1.5.5
+
+%labels
+    Author Andrew/Arka
+    Description "Cellpose single-channel pipeline (YAML config via argparse)"
+
+%environment
+    export MAMBA_ROOT_PREFIX=/opt/micromamba
+    export PATH=$MAMBA_ROOT_PREFIX/envs/cellpose/bin:$PATH
+    export TORCH_HOME=/opt/torch_cache
+
+%files
+    cellpose_auto_single.py /opt/cellpose/cellpose_auto_single.py
+    config.yml              /opt/cellpose/config.yml
+
+%post
+    set -e
+    micromamba create -y -n cellpose -c conda-forge -c pytorch -c nvidia \
+        python=3.10 pandas scikit-image tqdm pyyaml pytorch torchvision pytorch-cuda=12.1 cython
+    . /opt/micromamba/etc/profile.d/micromamba.sh
+    micromamba activate cellpose
+    pip install "cellpose==3.1.1.2"
+    micromamba clean -a -y
+    mkdir -p /work
+
+%runscript
+#!/bin/bash
+CFG="${1:-/opt/cellpose/config.yml}"
+. /opt/micromamba/etc/profile.d/micromamba.sh
+micromamba activate cellpose
+python /opt/cellpose/cellpose_auto_single.py --config "$CFG"
