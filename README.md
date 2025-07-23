@@ -32,7 +32,6 @@ Everything runs inside a **Singularity/Apptainer container**, so students only n
 * [Troubleshooting](#troubleshooting)
 * [FAQ](#faq)
 
----
 
 ## Folder Structure
 
