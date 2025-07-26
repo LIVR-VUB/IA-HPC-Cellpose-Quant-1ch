@@ -1,6 +1,6 @@
-![Under Development](https://img.shields.io/badge/status-under_development-orange)
+![Under Development](https://img.shields.io/badge/Status-under_development-orange)
 
-![May Contain Bugs](https://img.shields.io/badge/warning-may%20contain%20bugs-red)
+![May Contain Bugs](https://img.shields.io/badge/Warning-may%20contain%20bugs-red)
 
 
 # Cellpose Single-Channel Pipeline (Upsample➜ Segment ➜ Quantify)
