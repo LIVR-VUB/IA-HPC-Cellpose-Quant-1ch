@@ -1,5 +1,9 @@
 ![Under Development](https://img.shields.io/badge/Status-under_development-orange) ![May Contain Bugs](https://img.shields.io/badge/Warning-may%20contain%20bugs-red)
 
+[![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#) [![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#) [![Scikit-learn](https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white)](#)
+
+[![CUDA](https://img.shields.io/badge/CUDA-76B900?logo=nvidia&logoColor=fff)](#)
+
 
 # Cellpose Single-Channel Pipeline (Upsample➜ Segment ➜ Quantify)
 
